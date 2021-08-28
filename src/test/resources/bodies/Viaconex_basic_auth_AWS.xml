@@ -1,0 +1,37 @@
+<XML>
+    <REQUEST>
+        <ACTION>INSERT_ORDERWITHPAYMENT</ACTION>
+        <META>
+            <MERCHANTID>13138</MERCHANTID>
+            <IPADDRESS>20.60.98.38</IPADDRESS>
+            <VERSION>2.0</VERSION>
+            <TESTCASECODE>Regression_Elavon_Authorization_SPID_89_ACN_0_VISA</TESTCASECODE>
+        </META>
+        <PARAMS>
+            <ORDER>
+                <AMOUNT>20000</AMOUNT>
+                <COUNTRYCODE>NL</COUNTRYCODE>
+                <CURRENCYCODE>USD</CURRENCYCODE>
+                <LANGUAGECODE>en</LANGUAGECODE>
+                <HOUSENUMBER>14</HOUSENUMBER>
+                <STREET>156</STREET>
+                <ZIP>1000 AA</ZIP>
+            </ORDER>
+            <PAYMENT>
+                <CVV>123</CVV>
+                <CVVINDICATOR>1</CVVINDICATOR>
+                <PAYMENTPRODUCTID>1</PAYMENTPRODUCTID>
+                <AMOUNT>20000</AMOUNT>
+                <CURRENCYCODE>USD</CURRENCYCODE>
+                <CREDITCARDNUMBER>4012001037141112</CREDITCARDNUMBER>
+                <EXPIRYDATE>1230</EXPIRYDATE>
+                <COUNTRYCODE>NL</COUNTRYCODE>
+                <LANGUAGECODE>en</LANGUAGECODE>
+                <HOSTEDINDICATOR>0</HOSTEDINDICATOR>
+                <STTINDICATOR>1</STTINDICATOR>
+                <ACCEPTNEEDEDINDICATOR>0</ACCEPTNEEDEDINDICATOR>
+                <AUTHENTICATIONINDICATOR>0</AUTHENTICATIONINDICATOR>
+            </PAYMENT>
+        </PARAMS>
+    </REQUEST>
+</XML>

@@ -1,0 +1,43 @@
+<XML>
+    <REQUEST>
+        <ACTION>INSERT_ORDERWITHPAYMENT</ACTION>
+        <META>
+            <MERCHANTID>29700</MERCHANTID>
+            <IPADDRESS>20.60.98.38</IPADDRESS>
+            <VERSION>2.0</VERSION>
+            <TESTCASECODE>FDMS_AUTHENTICATION</TESTCASECODE>
+        </META>
+        <PARAMS>
+            <ORDER>
+                <ORDERID/>
+                <ORDERTYPE/>
+                <AMOUNT>200</AMOUNT>
+                <COUNTRYCODE>NL</COUNTRYCODE>
+                <CURRENCYCODE>SGD</CURRENCYCODE>
+                <LANGUAGECODE>en</LANGUAGECODE>
+                <SURNAME>Smith</SURNAME>
+                <FIRSTNAME>John</FIRSTNAME>
+                <HOUSENUMBER/>
+                <STREET>1 Main St.</STREET>
+                <ADDITIONALADDRESSINFO/>
+                <CITY>Burlington</CITY>
+                <STATE>MA</STATE>
+                <ZIP>85033</ZIP>
+            </ORDER>
+            <PAYMENT>
+                <CVV>123</CVV>
+                <PAYMENTPRODUCTID>1</PAYMENTPRODUCTID>
+                <AUTHTYPE></AUTHTYPE>
+                <AMOUNT>200</AMOUNT>
+                <CURRENCYCODE>SGD</CURRENCYCODE>
+                <CREDITCARDNUMBER>4111111111111111</CREDITCARDNUMBER>
+                <EXPIRYDATE>1225</EXPIRYDATE>
+                <COUNTRYCODE>NL</COUNTRYCODE>
+                <LANGUAGECODE>en</LANGUAGECODE>
+                <HOSTEDINDICATOR>0</HOSTEDINDICATOR>
+                <ACCEPTNEEDEDINDICATOR>0</ACCEPTNEEDEDINDICATOR>
+                <AUTHENTICATIONINDICATOR>0</AUTHENTICATIONINDICATOR>
+            </PAYMENT>
+        </PARAMS>
+    </REQUEST>
+</XML>
