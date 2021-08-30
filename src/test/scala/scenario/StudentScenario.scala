@@ -19,5 +19,5 @@ object StudentScenario {
     }
   }
 
-  val scnStudentGet = studentGetScenario(Constans.Viaconex_scenario, studentRequest.student_basic_get)
+  val scnStudentGet = studentGetScenario(Constans.getStudent, studentRequest.student_basic_get)
 }
